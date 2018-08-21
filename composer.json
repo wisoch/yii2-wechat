@@ -1,0 +1,19 @@
+{
+    "name": "kernel/yii2-wechat",
+    "type": "yii2-extension",
+    "authors": [
+        {
+            "name": "王超",
+            "email": "wisoch@163.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "~2.0.0",
+        "yiisoft/yii2-httpclient": "^2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "kernel\\wechat\\": "src"
+        }
+    }
+}
